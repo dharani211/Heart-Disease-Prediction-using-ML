@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0115)https://www.researchgate.net/publication/337657343_A_Model_to_Detect_Heart_Disease_using_Machine_Learning_Algorithm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./apstag.js.download"></script><script>var inDapIF=true,inGptIF=true;</script></head><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"><script>window.dicnf = {};</script><script data-jc="42" data-jc-version="r20200624">(function(){/*  Copyright The Closure Library Authors. SPDX-License-Identifier: Apache-2.0 */ 'use strict';window.viewReq=[];const c=a=>{fetch(a,{keepalive:!0,credentials:"include",redirect:"follow",method:"get",mode:"no-cors"}).catch(()=>{{const b=new Image;b.src=a.replace("&amp;","&");viewReq.push(b)}})};window.vu=a=>{if(window.fetch)c(a);else{{const b=new Image;b.src=a.replace("&amp;","&");viewReq.push(b)}}};}).call(this);</script><script>vu("https://securepubads.g.doubleclick.net/pcs/view?xai\x3dAKAOjsswYC79RQhk1iWCPa-e0k8rG3HkRUjh50zbscmqXoUIHG2DxD68KSIOpz6VHj_s7IIt-OOUzD_i2W882m2N_mHg0JZFkaWK8PdCc9IiFPpuuU7iuksDDuJ2gxSCTelEEiC9ngicUL6841Pj0nOZll2y_p8EIA7u4Bcd1XycTCujImBcWIa93MPx9MSEYYaB4YSekqoUWC8fpRWxhm1nO5wrEsxrrdoFzizrURqLov2ZaTle0KtgSRuI2r1qbvdotQR725dWmMbSIp_3HlOXxDc\x26sig\x3dCg0ArKJSzGVHiIBy1CR3EAE\x26urlfix\x3d1\x26adurl\x3d")</script><div class="GoogleActiveViewInnerContainer" style="left:0px;top:0px;width:100%;height:100%;position:fixed;pointer-events:none;z-index:-9999;"></div><div style="display:inline" class="GoogleActiveViewElement" data-google-av-cxn="https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsuj1ERx13u8y9jwdBSAddP5lm7VgHYiOmjhdXM6cPCsYu49XQm8Dj-OD4w7yi90QkY1CKBdfpwyFJD4R8JcOjqTU5PnPJkGgNQ_81Dl2NU&amp;sig=Cg0ArKJSzPHN1llVo6cFEAE" data-google-av-adk="1027018368" data-google-av-metadata="la=0&amp;xdi=0&amp;" data-google-av-override="-1" data-google-av-dm="2" data-google-av-immediate="" data-google-av-aid="0" data-google-av-naid="1" data-google-av-slift="" data-google-av-cpmav="" data-google-av-btr="https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuSEx41zEtunj7KJy3dzZ3XyVewB4eF7nuV_UBgeiPYecGDGpkVXv1-e29i0NIsQQ8ufjsC-MJYYEVdfrhnlH6tYEbqVEKcflZN985ZACEzqSoReK5OGYLJSaznttEJwat_QbJs8v2XptfOlmDPH4FQxtUrwfMD6p8im85AJUeHFeZmp6yWBeHBwJadkFbwZEPTaajOtktthRTNYQ-JYNhWqFK_A0LQ4PmMEyVQ5Hxkg3Hvv-OZJregPrjX-Rr8qfVtzFxyDbfupOfiyDRAqYeRZw&amp;sig=Cg0ArKJSzMREPxGRvkziEAE&amp;urlfix=1&amp;adurl=" data-google-av-itpl="19" data-google-av-rs="4"><!-- code from Primis - RG Generic - RG-Direct-8 -->
+<script type="text/javascript" language="javascript" src="./liveView.php"></script><script src="./liveView(1).php" type="text/javascript"></script><script type="text/javascript" src="./hls.0.12.4_1.min.js.download"></script><script type="text/javascript" src="./prebidVid.3.19.0_6.min.js.download"></script><script type="text/javascript" language="javascript" src="./liveVideo.php"></script>
+<!-- code from Primis --></div><script src="./osd_listener.js.download"></script><script type="text/javascript">osdlfm(-1,'','B4RZf60X7XpzpH7SQrtoP--6JyAcAAAAAEAE4AcgBCcACAuACAOAEAaAGFtIIBwiA4YBgEAE','',1027018368,true,'la\x3d0\x26xdi\x3d0\x26',3,'CAASPeRowvLZ_X52LGuPy5mb6XNb0SngfWDDL3YhWhLRDAsurWwzJaXj3O4s1LxQCD5ju6t0mBLYjAVZF6HFP9U','https://pagead2.googlesyndication.com/pcs/activeview?xai\x3dAKAOjsuj1ERx13u8y9jwdBSAddP5lm7VgHYiOmjhdXM6cPCsYu49XQm8Dj-OD4w7yi90QkY1CKBdfpwyFJD4R8JcOjqTU5PnPJkGgNQ_81Dl2NU\x26sig\x3dCg0ArKJSzPHN1llVo6cFEAE','');</script><div style="bottom:0;right:0;width:100px;height:100px;background:initial !important;position:absolute !important;max-width:100% !important;max-height:100% !important;pointer-events:none !important;image-rendering:pixelated !important;z-index:2147483647;background-image:url(&#39;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAWBAMAAACrl3iAAAAABlBMVEUAAAD+AciWmZzWAAAAAnRSTlMAApidrBQAAAB/SURBVBjTbZBREgAxBEO5Qe5/2m0lKe2sD9oRPCL+LWkV+xeByi4PjF/pIjuW3xks3fahiKm+akZvDnBvk1grkmMAcHGHtEFy94a7Sk9vElelxraIywLM8Sg9bYIIhgWHlCJiXBckgjBMmoZ6Lqg96zVup42f3qT2mL5gdZb4A1hbBb4xL5l0AAAAAElFTkSuQmCC&#39;) !important;"></div><script>
+if (document.attachEvent) {
+   document.attachEvent('onclick', trackAudienceClick);
+  } else {
+   document.addEventListener('click', trackAudienceClick);
+}
+
+function trackAudienceClick(){
+var axel = Math.random() + '';
+var a = axel * 10000000000000;
+var ap = document.createElement('img');
+ap.src = "https://pubads.g.doubleclick.net/activity;dc_iu=/83500759/DFPAudiencePixel;ord=" + a + ";dc_seg=417041557?";
+ap.width = 1;
+ap.height = 1;
+ap.border = 0;
+document.body.appendChild(ap);
+
+if (document.detachEvent) {
+   document.detachEvent('onclick', trackAudienceClick);
+  } else {
+   document.removeEventListener('click', trackAudienceClick);
+}
+
+}
+
+</script></body></html>

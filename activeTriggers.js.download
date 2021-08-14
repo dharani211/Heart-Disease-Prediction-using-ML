@@ -1,0 +1,1 @@
+(function(w) {var data={"t":["click.button.followPerson"]};if (!w.trackingConfig) w.trackingConfig = {};w.trackingConfig.activeQuestionnaireTriggers = data.t || [];})(window);
